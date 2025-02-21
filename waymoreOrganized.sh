@@ -12,5 +12,5 @@ while IFS= read -r line; do
     echo "$line,$lines" >> data.csv
     done
 
-
 done < "$key_words_file"
+echo "Data written to data.csv"
